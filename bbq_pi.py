@@ -25,7 +25,7 @@ class MainWindow(QMainWindow):
         self.mainwindow.tempshadow.setOffset(2, 2)
         self.mainwindow.tempshadow.setBlurRadius(5)
         self.mainwindow.TemperatureDisplayWidget_2.setGraphicsEffect(self.mainwindow.tempshadow)
-        # sfsf
+        # sfsf jfjfj
         self.show()
 
     def btnpressed(self):
