@@ -1,0 +1,8 @@
+# Start
+Logging:
+  LogToDB: false
+  LogFrequency: 0.5
+PID Settings:
+  P: 1.0
+  I: 0.2
+  D: 0.001
