@@ -83,8 +83,10 @@ class PID:
             self.PTerm = self.Kp * error
             self.ITerm += error * delta_time
 
-            if (self.ITerm < -self.windup_guard):
-                self.ITerm = -self.windup_guard
+            if (self.ITerm < 0):
+                self.ITerm = 0
+            # if (self.ITerm < -self.windup_guard):
+            #    self.ITerm = -self.windup_guard
             elif (self.ITerm > self.windup_guard):
                 self.ITerm = self.windup_guard
 
