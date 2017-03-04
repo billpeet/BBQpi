@@ -18,6 +18,8 @@ import pylab as pl
 
 from ivPID.PID import PID
 
+from max31865 import max31865
+
 from Forms.AdvancedSettingsDialog import AdvancedSettingsDialog
 
 
@@ -204,4 +206,10 @@ class BBQpiThread(QtCore.QThread):
             print('Logged to db')
 
     def readTemp(self):
-        return random.randint(50, 60)
+        csPin = 8
+        misoPin = 9
+        mosiPin = 10
+        clkPin = 11
+        max = max31865.max31865(csPin, misoPin, mosiPin, clkPin)
+        tempC = max.readTemp()
+        return tempC

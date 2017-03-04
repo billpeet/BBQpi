@@ -1,7 +1,0 @@
-database:
-	username: admin
-	password: abc123
-pid:
-	p: 23
-	i: 24
-	d: 25

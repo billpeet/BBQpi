@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e077982-4dd9-4d0b-aca2-a0f674a06ca4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bbq_pi.py" afterPath="$PROJECT_DIR$/bbq_pi.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/bbq_pi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/config.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/flame-icon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/flame-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/graph_screen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/main_screen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/testapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/testapp2.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Forms/GraphWindow.py" afterPath="$PROJECT_DIR$/Forms/GraphWindow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/max31865-test.py" afterPath="$PROJECT_DIR$/max31865-test.py" />
     </list>
     <ignored path="BBQpi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +34,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bbq_pi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bbq_pi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbq_pi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -33,6 +42,40 @@
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_screen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_screen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphWindow.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Forms/GraphWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+              <folding>
+                <element signature="e#25#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="max31865-test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max31865-test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,6 +89,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bbq_pi.py" />
+        <option value="$PROJECT_DIR$/max31865-test.py" />
+        <option value="$PROJECT_DIR$/Forms/GraphWindow.py" />
       </list>
     </option>
   </component>
@@ -96,6 +141,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BBQpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBQpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBQpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="max31865" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBQpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBQpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,6 +363,34 @@
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max31865-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Forms/GraphWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
